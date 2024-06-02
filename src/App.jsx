@@ -7,7 +7,7 @@ function App() {
 
   return (
     <div>
-      <iframe width="560" height="315" src="https://www.youtube.com/embed/watch?v=nfcKYqPjSYg&list=RDnfcKYqPjSYg&start_radio=1&ab_channel=Arma%C4%9FanOru%C3%A7"></iframe>
+      <video muted loop autoPlay style={{ width: 1500 }} src="iphone-15-vid.mp4" />
     </div>
   )
 }
