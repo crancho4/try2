@@ -6,7 +6,7 @@ import './App.css'
 function App() {
 
   const [isPlaying, setIsPlaying] = useState(false);
-  const audioRef = useRef(new Audio('../src/assets/ilyaas.mp3'));
+  const audioRef = useRef(new Audio('https://raw.githubusercontent.com/crancho4/try2/main/src/assets/ilyaas.mp3'));
 
   const togglePlay = () => {
     if (isPlaying) {
