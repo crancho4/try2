@@ -4,11 +4,10 @@ import viteLogo from '/vite.svg'
 import './App.css'
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
     <div>
-      <video src="iphone-15-vid.mp4"></video>
+      <video muted loop autoPlay style={{ width: 1500 }} src="iphone-15-vid.mp4" />
     </div>
   )
 }
