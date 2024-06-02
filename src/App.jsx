@@ -8,8 +8,7 @@ function App() {
 
   return (
     <div>
-      <div style={{ fontSize: 500, marginTop: -150 }}>VALO</div>
-      <img style={{ marginTop: -130 }}src="https://i.scdn.co/image/ab67616100005174f777c8d6f705fa1e32f75b86" alt="" />
+      <video src="iphone-15-vid.mp4"></video>
     </div>
   )
 }
