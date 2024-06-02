@@ -7,9 +7,7 @@ function App() {
   const [count, setCount] = useState(0)
 
   return (
-    <>
-      zort
-    </>
+    <div style={{ fontSize: 500 }}>VALO GELINMU HACU</div>
   )
 }
 
