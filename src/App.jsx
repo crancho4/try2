@@ -7,7 +7,7 @@ function App() {
 
   return (
     <div>
-      <video muted loop autoPlay style={{ width: 1500 }} src="iphone-15-vid.mp4" />
+      <iframe width="560" height="315" src="https://youtu.be/buw6ZPl1HDo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </div>
   )
 }
